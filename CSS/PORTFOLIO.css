@@ -1,0 +1,156 @@
+*{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+   /* font-size: 1.1rem;*/
+}
+.HOME{
+    position:relative;
+    height:100%;
+}
+
+.sidebar{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    border-right: #f5f3f3 solid 5px;
+}
+.side_skill{
+    color: rgb(148, 145, 140);
+}
+.side_skill:hover{
+    color: black;
+}
+
+img{
+    width: 30%;
+    padding-top:10% ;
+}
+
+.list_side{
+    list-style-type: none;
+    text-align: center;
+    padding : 0px;
+}
+.list_side li{
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid rgb(226, 224, 224);
+    border-top:  1px solid  rgb(226, 224, 224);
+    margin-top:-1px;
+}
+
+.list_side a{
+    text-decoration: none;
+    color:black;
+}
+.list_side li:hover{
+    background-color: rgb(211, 216, 216);
+}
+.list_side .active a:after{
+    background-color:gold;
+    display: block;
+    position: absolute;
+    content: "";
+    right:0px;
+    top:0px;
+    width:3px;
+    height:100%;
+}
+.side_media{
+    padding-top:40px ;
+}
+.side_media ul{
+    margin-left:0px;
+    padding: 0px;
+}
+
+.fa {
+    padding: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+   
+  }
+
+.fa-twitter{
+    background-color: #b9b7b7;
+    color: rgb(7, 7, 7);
+}
+.fa-facebook{
+    
+    background-color: #b9b7b7;
+    color: rgb(7, 7, 7);
+}
+.fa-google{
+    background-color: #b9b7b7;
+    color: rgb(7, 7, 7);
+}
+.fa:hover{
+    opacity:0.8;
+}
+
+.Container {
+    margin-left: 30%;
+    position:relative;
+  }
+
+.portfolio {
+    margin-top: 25px;
+    position:relative;
+    width:90px;
+    height: 30px;
+    background-color: gold;
+    color: aliceblue;
+    padding-left:140px;
+    padding-top:10px;
+    display: inline-block;
+}
+
+.con-head{
+   color: #b9b7b7;
+   position: absolute;
+   margin-left:27%;
+   margin-top:-3%;
+}
+.con-head:hover{
+   color: black;
+}
+
+.Container ul li{
+    padding-top: 10%;
+    display: inline-block;
+}
+.Container ul li a{
+    text-decoration: none;
+    color:black;
+    padding:15px 20px;
+    
+
+}
+.Container ul li a:hover{
+    background-color: gold;
+}
+
+.Container .row1 img{
+    margin:10px;
+    width: 200px;
+}
+.Container .row2 img{
+    margin:10px;
+    padding-top:10px;
+    width: 200px;
+}
+.Container .row3 img{
+    padding-top:10px;
+    margin:10px;
+    width: 200px;
+}
+.Container .row4 img{
+    padding-top:10px;
+    margin:10px;
+    width: 200px;
+}
